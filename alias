@@ -1,0 +1,17 @@
+{
+  graphqlProject: repository(name: "graphql", owner:"facebook") {
+    id
+    resourcePath
+    url
+    description
+    homepageUrl
+    createdAt
+  }
+  reactProject: repository(name: "react", owner:"facebook") {
+    id
+    resourcePath
+    url
+    description
+    homepageUrl
+  }
+}
