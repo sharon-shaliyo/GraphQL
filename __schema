@@ -3,6 +3,13 @@
   	queryType {
       name
     	description
+      fields {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
     }
   }
 }
+
