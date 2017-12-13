@@ -1,0 +1,20 @@
+{
+  viewer {
+    id
+    resourcePath
+    url
+    location
+    isEmployee
+    databaseId
+    createdAt
+    repositories(last: 5) {
+      edges {
+        node {
+          id
+          name
+        }
+      }
+    }
+  }
+}
+
